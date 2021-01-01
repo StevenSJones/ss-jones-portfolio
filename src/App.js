@@ -1,12 +1,15 @@
 import React from "react";
 import HelloReact from "./components/HelloReact";
 import Enjoy from "./components/IEnjoy";
+import Navigation from "./components/Navigation";
+
 
 
 
 function App() {
   return (
     <>
+      <Navigation />
       <HelloReact name="Steven"/> 
       <Enjoy fav1="hockey" fav2="skateboarding" fav3="drawing" />
       <HelloReact name="GeOvonni"/> 
