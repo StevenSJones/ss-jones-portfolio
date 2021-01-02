@@ -1,39 +1,52 @@
 import React from "react";
-import {
-  Nav,
-  Navbar,
-  NavDropdown,
-  Button,
-  Form,
-  FormControl,
-} from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 
 export default function Navigation(props) {
   return (
-    <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
-            </NavDropdown.Item>
-          </NavDropdown>
-        </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-success">Search</Button>
-        </Form>
-      </Navbar.Collapse>
-    </Navbar>
+    <>
+      <Navbar bg="light" expand="lg">
+        {/* Header */}
+        <header id="header">
+          <div class="intro">
+            <div class="container">
+              <div class="row">
+                <div class="intro-text">
+                  <h1>Steven Jones</h1>
+                  <hr />
+                  <p>Full Stack Web Developer</p>
+                  <a href="#about" class="btn  btn-intro btn-lg page-scroll">
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        {/* Collect the nav links, forms, and other content for toggling  */}
+        <div class="collapse navbar-collapse navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            {/* Hidden li included to remove active class from about link when scrolled up past about section  */}
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#about">
+                About
+              </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#portfolio">
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </Navbar>
+    </>
   );
 }
