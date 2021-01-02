@@ -1,0 +1,29 @@
+* html .clearfix {
+  height: 1%;
+}
+
+.img-responsive {
+  height: 100%;
+  width: 100%;
+}
+
+header .intro-text {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+hr {
+  height: 1px;
+  width: 70px;
+  text-align: center;
+  position: relative;
+  background: #666;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
