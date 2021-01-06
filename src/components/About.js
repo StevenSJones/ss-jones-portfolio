@@ -2,7 +2,7 @@ import React from "react";
 // import { Navbar } from "react-bootstrap";
 
 // About Section
-export default function Navigation(props) {
+export default function About(props) {
   return (
     <>
       <div id="about">

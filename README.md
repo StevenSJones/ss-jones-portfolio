@@ -1,6 +1,20 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/stevensjones/ss-jones-portfolio)
 # Project Title: 
 > ss-jones-portfolio
+## Description: 
+> This app is designed to showcase the applications that I have created so far. 
+>  
+> 
+## Table Of Contents:
+- [Title](#Title)
+- [Description](#Description)
+- [Table Of Contents](#TableOfContents)
+- [Prerequisites](#Prerequisites)
+- [Tests](#Tests)
+- [Contributing](#Contributing)
+- [Usage](#Usage) 
+- [License](#License)
+- [Further Contact](#FurtherContact)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

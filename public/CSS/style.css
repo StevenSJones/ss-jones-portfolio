@@ -27,3 +27,46 @@ ul,
 ol {
   list-style: none;
 }
+
+/* Header Section */
+.intro {
+	display: table;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	color:antiquewhite;
+	background: url(https://images.pexels.com/photos/220071/pexels-photo-220071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350) no-repeat center top;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+/* About Section */
+#about {
+	padding: 120px 0;
+}
+#about .about-text {
+	margin-left: 10px;
+	text-align: center;
+}
+#about img {
+	border-radius: 50%;
+	width: 210px;
+	height: 210px;
+	display: inline-block;
+}
+.contact-img{
+	border-radius: 50%;
+	width: 210px;
+	height: 290px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+#about p {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	line-height: 22px;
+}
