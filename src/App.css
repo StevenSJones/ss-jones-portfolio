@@ -1,50 +1,82 @@
-.App {
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(197, 164, 102);
+  /* text-rendering: The browser emphasizes legibility over rendering speed and geometric precision. This enables kerning and optional ligatures. */
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	width: 100% !important;
+  height: 100% !important;
+}
+
+/*===================================================*/
+/* navigation and header */
+
+.intro {
   text-align: center;
+  width: 100%;
+  height: 50rem;
+	padding: 0;
+	color:antiquewhite;
+	background: url(https://images.pexels.com/photos/220071/pexels-photo-220071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350) no-repeat center top;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.img-responsive{
+  height: 100%;
+  width: 100%;
   }
+
+  header .intro-text {
+    margin-top: 15rem;
+    margin-bottom: 20rem;    
+  }
+
+.intro h1 {
+  text-align: center; 
+	font-size: 4rem;
+	font-weight: 600;
+	letter-spacing: .25rem;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+  color: rgb(197, 164, 102);
 }
 
-.app-header {
-  /* text-align: center; */
-  background-color: black;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.intro p {
+	font-size: 1rem;
+	margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: rgb(197, 164, 102);
 }
 
 hr {
   height: 1px;
-  width: 70px;
+  width: 30%;
   text-align: center;
   position: relative;
-  background: #666;
+  background: rgb(255, 255, 255);
   margin: 0 auto;
   margin-bottom: 30px;
   border: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.intro a {
+  color: rgb(197, 164, 102);
+  text-transform: uppercase;
+  border-color: rgb(197, 164, 102);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover, a:focus {
+  text-decoration: none;
+  background-color: #000;
+}
+/*===================================================*/
+/* about */
+#about img {
+	border-radius: 50%;
+	width: 210px;
+	height: 210px;
+	display: inline-block;
 }
