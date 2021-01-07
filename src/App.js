@@ -1,6 +1,7 @@
 import React from "react";
-import HelloReact from "./components/HelloReact";
-import Enjoy from "./components/IEnjoy";
+import "./App.css";
+// import HelloReact from "./components/HelloReact";
+// import Enjoy from "./components/IEnjoy";
 import Navigation from "./components/Navigation";
 import About from "./components/About";
 

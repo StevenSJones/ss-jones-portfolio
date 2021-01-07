@@ -6,17 +6,17 @@ export default function About(props) {
   return (
     <>
       <div id="about">
-        <div class="container">
-          <div class="section-title text-center center">
+        <div className="container">
+          <div className="section-title text-center center">
             <h2>About Me</h2>
             <hr />
           </div>
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <img src="img/about.jpg" class="img-responsive about-img" />
+          <div className="row">
+            <div className="col-md-12">
+              <img src="img/about/about.jpg" className="img-responsive about-img" alt="Steven Jones in houndstooth jacket" />
             </div>
-            <div class="col-md-8 col-md-offset-2">
-              <div class="about-text">
+            <div className="col-md-8 col-md-offset-2">
+              <div className="about-text">
                 <p>
                   Recent University of Arizona Full-stack web development
                   graduate with a robust skillset including software engineering
@@ -30,7 +30,7 @@ export default function About(props) {
                   demonstrate my current abilities while simultaeously evolving
                   so as to master my craft.{" "}
                 </p>
-                <a href="#portfolio" class="btn btn-default btn-lg page-scroll">
+                <a href="#portfolio" className="btn btn-default btn-lg page-scroll">
                   My Portfolio
                 </a>
               </div>
