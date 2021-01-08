@@ -2,14 +2,14 @@ import React from "react";
 import "./App.css";
 // import HelloReact from "./components/HelloReact";
 // import Enjoy from "./components/IEnjoy";
-// import About from "./components/About";
+import About from "./components/About";
 import NavigationHeader from "./components/NavigationHeader";
 
 function App() {
   return (
     <>
       <NavigationHeader />
-      {/* <About /> */}
+      <About />
       {/* <HelloReact name="Steven"/> 
       <Enjoy fav1="hockey" fav2="skateboarding" fav3="drawing" />
       <HelloReact name="GeOvonni"/> 
