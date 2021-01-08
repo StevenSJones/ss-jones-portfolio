@@ -65,8 +65,13 @@ hr {
   color: rgb(197, 164, 102);
   text-transform: uppercase;
   border-color: rgb(197, 164, 102);
+  font-size: 16px;
+	border-radius: 0;
+  margin-top: 2rem;
+  margin-bottom: 11rem;
 }
-a:hover, a:focus {
+
+.intro a:hover, a:focus {
   text-decoration: none;
   color: white;
 }
@@ -124,22 +129,24 @@ h2 {
   margin-right: 0;
   margin-bottom: 5rem;
   margin-left:  0;
-  color: "white";
 	color:white;
 	text-transform: uppercase;
 	letter-spacing: .5rem;
 	font-weight: 400;
 }
 
-.btn-default {
-	text-transform: uppercase;
-	color: #777;
-	background-color: transparent;
-	border-color: #777;
-	padding: 14px 20px;
-	margin: 0;
-	font-size: 16px;
+#about a {
+  background-color: transparent;
+  color:white;
+  text-transform: uppercase;
+  border-color: white;
+  font-size: 16px;
 	border-radius: 0;
   margin-top: 2rem;
   margin-bottom: 11rem;
+}
+
+#about a:hover, a:focus {
+  text-decoration: none;
+  color: rgb(197, 164, 102);
 }
