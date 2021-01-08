@@ -100,7 +100,14 @@ ul.nav li {
 li:hover, li:focus {
   color:#777;
   text-decoration: none;
-  background-color: lightgray;
+}
+
+li a {
+  color:#777;
+}
+
+li a:hover {
+  color:black;
 }
 
 /*===================================================*/
@@ -108,9 +115,8 @@ li:hover, li:focus {
 #about img {
   margin-top: 2rem;
 	border-radius: 50%;
-	width: 11rem;
-	height: 13rem;
-	display: inline-block;
+  display: inline-block;
+  transform: scale(0.7)
 }
 
 .personalSummary {
@@ -150,3 +156,7 @@ h2 {
   text-decoration: none;
   color: rgb(197, 164, 102);
 }
+
+/*===================================================*/
+
+/* portfolio */
