@@ -18,7 +18,6 @@ body, html {
 	padding: 0;
 	color:antiquewhite;
 	background: url(https://images.pexels.com/photos/220071/pexels-photo-220071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350) no-repeat center top;
-	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -53,7 +52,6 @@ body, html {
 }
 
 hr {
-  height: 1px;
   width: 30%;
   text-align: center;
   position: relative;
@@ -70,7 +68,7 @@ hr {
 }
 a:hover, a:focus {
   text-decoration: none;
-  background-color: #000;
+  color: #000;
 }
 
 /*==============*/
