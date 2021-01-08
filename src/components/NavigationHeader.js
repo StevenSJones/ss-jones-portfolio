@@ -8,7 +8,7 @@ export default function NavigationHeader() {
         <div className="intro">
           <div className="container">
             <div className="row">
-              <div className="intro-text text-center">
+              <div className="col intro-text">
                 <h1>Steven Jones</h1>
                 <hr />
                 <p>Full Stack Web Developer</p>
@@ -20,6 +20,18 @@ export default function NavigationHeader() {
           </div>
         </div>
       </header>
+      {/* nav */}
+      <ul id="nav" class="nav row">
+        <li className="col">
+          <a href="#about">about</a>
+        </li>
+        <li className="col">
+          <a href="#portfolio">portfolio</a>
+        </li>
+        <li className="col">
+          <a href="#contact">contact</a>
+        </li>
+      </ul>
     </>
   );
 }
