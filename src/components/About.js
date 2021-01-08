@@ -34,7 +34,7 @@ export default function About(props) {
                       am both seeking ways to acquire a knowledge base of and
                       implement novel technologies. Motivated to achieve both
                       personal and professional success by a strong work ethic,
-                      I am seeking a role as a developer that affords the
+                      I am seeking a role as a developer that affords me the
                       opportunity to demonstrate my current abilities while
                       simultaeously evolving so as to master my craft.{" "}
                     </p>

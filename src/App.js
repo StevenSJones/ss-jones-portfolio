@@ -4,12 +4,14 @@ import "./App.css";
 // import Enjoy from "./components/IEnjoy";
 import About from "./components/About";
 import NavigationHeader from "./components/NavigationHeader";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
     <>
       <NavigationHeader />
       <About />
+      <Portfolio />
       {/* <HelloReact name="Steven"/> 
       <Enjoy fav1="hockey" fav2="skateboarding" fav3="drawing" />
       <HelloReact name="GeOvonni"/> 
