@@ -36,7 +36,7 @@ export default function About(props) {
                       personal and professional success by a strong work ethic,
                       I am seeking a role as a developer that affords me the
                       opportunity to demonstrate my current abilities while
-                      simultaeously evolving so as to master my craft.{" "}
+                      simultaneously evolving so as to master my craft.{" "}
                     </p>
                     <a
                       href="#portfolio"

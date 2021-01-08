@@ -158,3 +158,32 @@ h2 {
 /*===================================================*/
 
 /* portfolio */
+#portfolio {
+	padding: 11rem 0;
+  background-color: black;
+  color: white; 
+}
+
+.categories {
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+ul.cat li {
+	display: inline-block;
+}
+
+ol.type li {
+	display: inline-block;
+	margin-left: 1rem;
+}
+
+ol.type li a {
+	border: 1px solid #777;
+	padding: .5rem 2rem;
+}
+
+ol.type li a.hover, a.active {
+	border: 1px solid #222;
+	color: rgb(197, 164, 102);
+}
