@@ -49,9 +49,9 @@ export default function Portfolio(props) {
             </ul>
             <div class="clearfix"></div>
           </div>
-            <div class="portfolio-items">
-              {/* app number 1 */}
-              <div class="row">
+          <div class="portfolio-items">
+            {/* app number 1 */}
+            <div class="row">
               <div class="col">
                 <div class="portfolio-item">
                   <div class="hover-bg">
@@ -328,7 +328,7 @@ export default function Portfolio(props) {
                   <p>
                     This app is designed to track a user's workout using
                     javascript, a Mongo database with a Mongoose schema and
-                    route handling with Express."
+                    route handling with Express.
                   </p>
                   <a
                     class="github"
@@ -422,19 +422,19 @@ export default function Portfolio(props) {
                       </a>
                     </div>
                   </div>
+                  <p>
+                    Users can search for cocktail recipes by name, liquor type,
+                    or other ingredients. Sign in and create an account and gain
+                    the ability to save your favorites, and even create your own
+                    recipes.
+                  </p>
+                  <a
+                    class="github"
+                    href="https://github.com/jmuncrief/p3_cocktail_lounge"
+                  >
+                    View GitHub Code
+                  </a>
                 </div>
-                <p>
-                  Users can search for cocktail recipes by name, liquor type, or
-                  other ingredients. Sign in and create an account and gain the
-                  ability to save your favorites, and even create your own
-                  recipes.
-                </p>
-                <a
-                  class="github"
-                  href="https://github.com/jmuncrief/p3_cocktail_lounge"
-                >
-                  View GitHub Code
-                </a>
               </div>
             </div>
           </div>
