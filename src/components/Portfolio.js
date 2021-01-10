@@ -386,7 +386,7 @@ export default function Portfolio(props) {
                   </p>
                   <a
                     class="github"
-                    href="https://github.com/KatharineArnold/mongo-scrape"
+                    href="https://github.com/StevenSJones/BudgetTrackerOnlineOfflineTwelfthEdition"
                     target="_blank"
                   >
                     View GitHub Code
