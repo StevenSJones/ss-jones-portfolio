@@ -57,7 +57,8 @@ export default function Portfolio(props) {
                   <div class="hover-bg">
                     <a
                       href="https://stevensjones.github.io/passwordGeneratorThirdEdition/"
-                      title="Project Title"
+                      title="password generator"
+                      target="_blank"
                       data-lightbox-gallery="gallery1"
                     >
                       <div class="hover-text">
@@ -88,7 +89,8 @@ export default function Portfolio(props) {
                   <div class="hover-bg">
                     <a
                       href="https://stevensjones.github.io/codeQuizFourthEdition/"
-                      title="Project Title"
+                      title="code quiz"
+                      target="_blank"
                       data-lightbox-gallery="gallery1"
                     >
                       <div class="hover-text">
@@ -119,7 +121,8 @@ export default function Portfolio(props) {
                   <div class="hover-bg">
                     <a
                       href="https://stevensjones.github.io/WorkDayCalenderFifthEdition/"
-                      title="Project Title"
+                      title="workday calender"
+                      target="_blank"
                       data-lightbox-gallery="gallery1"
                     >
                       <div class="hover-text">
@@ -151,7 +154,8 @@ export default function Portfolio(props) {
                     <div class="hover-bg">
                       <a
                         href="https://stevensjones.github.io/weatherDashboardSixthEdition/"
-                        title="Project Title"
+                        title="Weather Dashboard"
+                        target="_blank"
                         data-lightbox-gallery="gallery1"
                       >
                         <div class="hover-text">
@@ -183,7 +187,8 @@ export default function Portfolio(props) {
                     <div class="hover-bg">
                       <a
                         href="https://jmuncrief.github.io/p1_location_info/"
-                        title="Project Title"
+                        title="city info"
+                        target="_blank"
                         data-lightbox-gallery="gallery1"
                       >
                         <div class="hover-text">
@@ -214,7 +219,8 @@ export default function Portfolio(props) {
                     <div class="hover-bg">
                       <a
                         href="https://shielded-dawn-80021.herokuapp.com/"
-                        title="Project Title"
+                        title="note taker"
+                        target="_blank"
                         data-lightbox-gallery="gallery1"
                       >
                         <div class="hover-text">
@@ -247,7 +253,8 @@ export default function Portfolio(props) {
                     <div class="hover-bg">
                       <a
                         href="https://intense-castle-15409.herokuapp.com/"
-                        title="Project Title"
+                        title="eat da burger"
+                        target="_blank"
                         data-lightbox-gallery="gallery1"
                       >
                         <div class="hover-text">
@@ -279,7 +286,8 @@ export default function Portfolio(props) {
                     <div class="hover-bg">
                       <a
                         href="https://glacial-taiga-04215.herokuapp.com/"
-                        title="Project Title"
+                        title="game tracker"
+                        target="_blank"
                         data-lightbox-gallery="gallery1"
                       >
                         <div class="hover-text">
@@ -311,7 +319,8 @@ export default function Portfolio(props) {
                     <div class="hover-bg">
                       <a
                         href="https://hidden-sea-72938.herokuapp.com/"
-                        title="Code Gap"
+                        title="Workout Tracker"
+                        target="_blank"
                         data-lightbox-gallery="gallery1"
                       >
                         <div class="hover-text">
@@ -346,6 +355,8 @@ export default function Portfolio(props) {
                       <a
                         href="https://github.com/StevenSJones/BudgetTrackerOnlineOfflineTwelfthEdition"
                         data-lightbox-gallery="gallery1"
+                        title="Budget Tracker"
+                        target="_blank"
                       >
                         <div class="hover-text">
                           <h4>Budget Tracker</h4>
@@ -377,7 +388,8 @@ export default function Portfolio(props) {
                     <div class="hover-bg">
                       <a
                         href="https://5f88c380e358651e96f02101--competent-stonebraker-251e1d.netlify.app/gallery"
-                        title="puppy click game"
+                        title="my react portfolio"
+                        target="_blank"
                         data-lightbox-gallery="gallery1"
                       >
                         <div class="hover-text">
@@ -408,7 +420,8 @@ export default function Portfolio(props) {
                     <div class="hover-bg">
                       <a
                         href=" https://cocktail-lounge.herokuapp.com/"
-                        title="poll pal"
+                        title="coctail lounge"
+                        target="_blank"
                         data-lightbox-gallery="gallery1"
                       >
                         <div class="hover-text">
