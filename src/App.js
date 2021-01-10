@@ -5,6 +5,7 @@ import "./App.css";
 import About from "./components/About";
 import NavigationHeader from "./components/NavigationHeader";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavigationHeader />
       <About />
       <Portfolio />
+      <Contact />
       {/* <HelloReact name="Steven"/> 
       <Enjoy fav1="hockey" fav2="skateboarding" fav3="drawing" />
       <HelloReact name="GeOvonni"/> 
