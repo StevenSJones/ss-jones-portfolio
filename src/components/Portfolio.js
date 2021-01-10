@@ -52,7 +52,7 @@ export default function Portfolio(props) {
           <div class="portfolio-items">
             {/* app number 1 */}
             <div class="row">
-              <div class="col">
+              <div class="col graphic">
                 <div class="portfolio-item">
                   <div class="hover-bg">
                     <a
@@ -79,12 +79,13 @@ export default function Portfolio(props) {
                 <a
                   class="github"
                   href="https://github.com/StevenSJones/passwordGeneratorThirdEdition"
+                  target="_blank"
                 >
                   View GitHub Code
                 </a>
               </div>
               {/* app number 2  */}
-              <div class="col">
+              <div class="col graphic">
                 <div class="portfolio-item">
                   <div class="hover-bg">
                     <a
@@ -111,12 +112,13 @@ export default function Portfolio(props) {
                 <a
                   class="github"
                   href="https://github.com/StevenSJones/codeQuizFourthEdition"
+                  target="_blank"
                 >
                   View GitHub Code
                 </a>
               </div>
               {/* app number 3  */}
-              <div class="col">
+              <div class="col graphic">
                 <div class="portfolio-item">
                   <div class="hover-bg">
                     <a
@@ -143,13 +145,14 @@ export default function Portfolio(props) {
                 <a
                   class="github"
                   href="https://github.com/StevenSJones/WorkDayCalenderFifthEdition"
+                  target="_blank"
                 >
                   View GitHub Code
                 </a>
               </div>
               {/* app number 4  */}
               <div className="row">
-                <div class="col">
+                <div class="col graphic">
                   <div class="portfolio-item">
                     <div class="hover-bg">
                       <a
@@ -177,12 +180,13 @@ export default function Portfolio(props) {
                   <a
                     class="github"
                     href="https://github.com/StevenSJones/weatherDashboardSixthEdition"
+                    target="_blank"
                   >
                     View GitHub Code
                   </a>
                 </div>
                 {/*  app number 5  */}
-                <div class="col">
+                <div class="col illustration">
                   <div class="portfolio-item">
                     <div class="hover-bg">
                       <a
@@ -209,12 +213,13 @@ export default function Portfolio(props) {
                   <a
                     class="github"
                     href="https://github.com/jmuncrief/p1_location_info"
+                    target="_blank"
                   >
                     View GitHub Code
                   </a>
                 </div>
                 {/*  app number 6  */}
-                <div class="col">
+                <div class="col illustration">
                   <div class="portfolio-item">
                     <div class="hover-bg">
                       <a
@@ -241,6 +246,7 @@ export default function Portfolio(props) {
                   <a
                     class="github"
                     href="https://github.com/StevenSJones/expressNoteTakerNinthEdition"
+                    target="_blank"
                   >
                     View GitHub Code
                   </a>
@@ -248,7 +254,7 @@ export default function Portfolio(props) {
               </div>
               {/* app number 7  */}
               <div className="row">
-                <div class="col">
+                <div class="col illustration">
                   <div class="portfolio-item">
                     <div class="hover-bg">
                       <a
@@ -276,12 +282,13 @@ export default function Portfolio(props) {
                   <a
                     class="github"
                     href="https://github.com/StevenSJones/burger"
+                    target="_blank"
                   >
                     View GitHub Code
                   </a>
                 </div>
                 {/* app number 8  */}
-                <div class="col">
+                <div class="col illustration">
                   <div class="portfolio-item">
                     <div class="hover-bg">
                       <a
@@ -309,12 +316,13 @@ export default function Portfolio(props) {
                   <a
                     class="github"
                     href=" https://github.com/robkellen/GameTracker"
+                    target="_blank"
                   >
                     View GitHub Code
                   </a>
                 </div>
                 {/* app number 9  */}
-                <div class="col">
+                <div class="col mongo">
                   <div class="portfolio-item">
                     <div class="hover-bg">
                       <a
@@ -342,6 +350,7 @@ export default function Portfolio(props) {
                   <a
                     class="github"
                     href="https://github.com/StevenSJones/workoutTrackerEleventhEdition"
+                    target="_blank"
                   >
                     View GitHub Code
                   </a>
@@ -349,7 +358,7 @@ export default function Portfolio(props) {
               </div>
               {/* app number 10  */}
               <div className="row">
-                <div class="col">
+                <div class="col mongo">
                   <div class="portfolio-item">
                     <div class="hover-bg">
                       <a
@@ -378,12 +387,13 @@ export default function Portfolio(props) {
                   <a
                     class="github"
                     href="https://github.com/KatharineArnold/mongo-scrape"
+                    target="_blank"
                   >
                     View GitHub Code
                   </a>
                 </div>
                 {/*  app number 11  */}
-                <div class="col">
+                <div class="col react">
                   <div class="portfolio-item">
                     <div class="hover-bg">
                       <a
@@ -410,12 +420,13 @@ export default function Portfolio(props) {
                   <a
                     class="github"
                     href="https://github.com/StevenSJones/my-react-portfolio"
+                    target="_blank"
                   >
                     View GitHub Code
                   </a>
                 </div>
                 {/*  app number 12  */}
-                <div class="col">
+                <div class="col react mongo illustration">
                   <div class="portfolio-item">
                     <div class="hover-bg">
                       <a
@@ -444,6 +455,7 @@ export default function Portfolio(props) {
                   <a
                     class="github"
                     href="https://github.com/jmuncrief/p3_cocktail_lounge"
+                    target="_blank"
                   >
                     View GitHub Code
                   </a>
