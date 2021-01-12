@@ -18,7 +18,7 @@ export default function About(props) {
               <img
                 src="img/about/about.jpg"
                 className="col md={{ span: 6, offset: 3 }} img-responsive about-img"
-                alt="Steven Jones in houndstooth jacket"
+                alt="Steven Jones in black jacket"
               />
               <div className="col"></div>
 

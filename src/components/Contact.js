@@ -3,7 +3,6 @@ import React from "react";
 export default function Contact(props) {
   return (
     <>
-      {/* Contact Section  */}
       <div id="contact" class="text-center">
         <div class="container">
           <div class="section-title center">
@@ -11,8 +10,8 @@ export default function Contact(props) {
             <hr />
           </div>
 
-          <div class="col-md-12 text-center">
-            <img src="img/contact.jpg" class="img-responsive contact-img" />
+          <div class="col text-center">
+            <img src="../../public/img/contact/contact.jpg" class="img-responsive contact-img" />
           </div>
 
           <div class="col-md-8 col-md-offset-2">
