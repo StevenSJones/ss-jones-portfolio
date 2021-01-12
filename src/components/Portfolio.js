@@ -65,7 +65,7 @@ export default function Portfolio(props) {
                         <h4>Password Generator</h4>
                       </div>
                       <img
-                        src="./img/portfolio/01-small.jpg"
+                        src="./img/portfolio/01-pwGen.jpg"
                         class="img-responsive"
                         alt="password generator"
                       />
@@ -98,7 +98,7 @@ export default function Portfolio(props) {
                         <h4>Code Quiz</h4>
                       </div>
                       <img
-                        src="./img/portfolio/02-small.jpg"
+                        src="./img/portfolio/02-codeQuiz.jpg"
                         class="img-responsive"
                         alt="code quiz"
                       />
@@ -107,7 +107,7 @@ export default function Portfolio(props) {
                 </div>
                 <p>
                   Javascript based game that challenges users with coding
-                  related questions.{" "}
+                  related questions.
                 </p>
                 <a
                   class="github"
@@ -131,7 +131,7 @@ export default function Portfolio(props) {
                         <h4>Workday Calender</h4>
                       </div>
                       <img
-                        src="./img/portfolio/03-small.jpg"
+                        src="./img/portfolio/03-wDScheduler.jpg"
                         class="img-responsive"
                         alt="workday calender"
                       />
@@ -165,7 +165,7 @@ export default function Portfolio(props) {
                           <h4>Weather Dashboard</h4>
                         </div>
                         <img
-                          src="./img/portfolio/04-small.jpg"
+                          src="./img/portfolio/04-wDashboard.jpg"
                           class="img-responsive"
                           alt="weather dashboard"
                         />
@@ -199,7 +199,7 @@ export default function Portfolio(props) {
                           <h4>City Info</h4>
                         </div>
                         <img
-                          src="./img/portfolio/05-small.jpg"
+                          src="./img/portfolio/05-cityInfo.jpg"
                           class="img-responsive"
                           alt="city info"
                         />
@@ -232,7 +232,7 @@ export default function Portfolio(props) {
                           <h4>Note Taker</h4>
                         </div>
                         <img
-                          src="./img/portfolio/06-small.jpg"
+                          src="./img/portfolio/06-noteTaker.jpg"
                           class="img-responsive"
                           alt="note taker"
                         />
@@ -267,7 +267,7 @@ export default function Portfolio(props) {
                           <h4>Eat Da Burger</h4>
                         </div>
                         <img
-                          src="img/portfolio/07-small.jpg"
+                          src="img/portfolio/07-eatDaBurger.jpg"
                           class="img-responsive"
                           alt="eat da burger"
                         />
@@ -301,7 +301,7 @@ export default function Portfolio(props) {
                           <h4>Game Tracker</h4>
                         </div>
                         <img
-                          src="img/portfolio/08-small.jpg"
+                          src="img/portfolio/08-gameTracker.jpg"
                           class="img-responsive"
                           alt="game tracker"
                         />
@@ -335,7 +335,7 @@ export default function Portfolio(props) {
                           <h4>Workout Tracker</h4>
                         </div>
                         <img
-                          src="img/portfolio/09-small.jpg"
+                          src="img/portfolio/09-fitnessTracker.jpg"
                           class="img-responsive"
                           alt="workout tracker"
                         />
@@ -371,7 +371,7 @@ export default function Portfolio(props) {
                           <h4>Budget Tracker</h4>
                         </div>
                         <img
-                          src="img/portfolio/10-small.jpg"
+                          src="img/portfolio/10-budgetTracker.jpg"
                           class="img-responsive"
                           alt="budget tracker"
                         />
@@ -406,7 +406,7 @@ export default function Portfolio(props) {
                           <h4>My React Portfolio</h4>
                         </div>
                         <img
-                          src="img/portfolio/11-small.jpg"
+                          src="img/portfolio/11-reactPort.jpg"
                           class="img-responsive"
                           alt="my react portfolio"
                         />
@@ -439,7 +439,7 @@ export default function Portfolio(props) {
                           <h4>Cocktail Lounge</h4>
                         </div>
                         <img
-                          src="img/portfolio/12-small.jpg"
+                          src="img/portfolio/12-cocktailLounge.jpg"
                           class="img-responsive"
                           alt="cocktail lounge"
                         />
