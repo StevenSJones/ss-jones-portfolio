@@ -1,102 +1,102 @@
 import React from "react";
 
-// Array of 12 project objects
+{/* Array of 12 project objects */}
 const projects = [
 {
-name: " ", 
-appURL: " ",
-description: " ",
-thumbnail: " ",
-GitHubURL: " ",
-category: " "
+name: "Password Generator", 
+appURL: "https://stevensjones.github.io/passwordGeneratorThirdEdition/",
+description: "Generate a password that meets your user specified criteria so that your passwords are more secure.",
+thumbnail: "01-pwGen.jpg",
+GitHubURL: "https://github.com/StevenSJones/passwordGeneratorThirdEdition",
+category: "javascript"
 },
 {
-name: " ", 
-appURL: " ",
-description: " ",
-thumbnail: " ",
-GitHubURL: " ",
-category: " "
+name: "Code Quiz", 
+appURL: "https://stevensjones.github.io/codeQuizFourthEdition/",
+description: "Javascript based game that challenges users with coding related questions.",
+thumbnail: "02-codeQuiz.jpg",
+GitHubURL: "https://github.com/StevenSJones/codeQuizFourthEdition",
+category: "javascript"
 },
 {
-name: " ", 
-appURL: " ",
-description: " ",
-thumbnail: " ",
-GitHubURL: " ",
-category: " "
+name: "Workday Calender", 
+appURL: "https://stevensjones.github.io/WorkDayCalenderFifthEdition/",
+description: "Work Day scheduler using javascript to create and save todos throughout the workday, or any day.",
+thumbnail: "03-wDScheduler.jpg",
+GitHubURL: "https://github.com/StevenSJones/WorkDayCalenderFifthEdition",
+category: "javascript"
 },
 {
-name: " ", 
-appURL: " ",
-description: " ",
-thumbnail: " ",
-GitHubURL: " ",
-category: " "
+name: "Weather Dashboard", 
+appURL: "https://stevensjones.github.io/weatherDashboardSixthEdition/</div>",
+description: "The application retrieves weather data for the city of one's choosing.",
+thumbnail: "04-wDashboard.jpg",
+GitHubURL: "https://github.com/StevenSJones/weatherDashboardSixthEdition",
+category: "javascript"
 },
 {
-name: " ", 
-appURL: " ",
-description: " ",
-thumbnail: " ",
-GitHubURL: " ",
-category: " "
+name: "City Info", 
+appURL: "https://jmuncrief.github.io/p1_location_info/",
+description: "This app allows a user to search current weather, current news, and recreation areas nearby the city searched.",
+thumbnail: "05-cityInfo.jpg",
+GitHubURL: "https://github.com/jmuncrief/p1_location_info",
+category: "javascript"
 },
 {
-name: " ", 
-appURL: " ",
-description: " ",
-thumbnail: " ",
-GitHubURL: " ",
-category: " "
+name: "Note Taker", 
+appURL: "https://shielded-dawn-80021.herokuapp.com/",
+description: "Allows a user to write, save, and delete notes with the click of a button.",
+thumbnail: "06-noteTaker.jpg",
+GitHubURL: "https://github.com/StevenSJones/expressNoteTakerNinthEdition",
+category: "nodejs"
 },
 {
-name: " ", 
-appURL: " ",
-description: " ",
-thumbnail: " ",
-GitHubURL: " ",
-category: " "
+name: "Eat Da Burger", 
+appURL: "https://intense-castle-15409.herokuapp.com/",
+description: "This application is a burger logger that allows the user to create a burger of their choosing and save the burger for later or devour it now!",
+thumbnail: "07-eatDaBurger.jpg",
+GitHubURL: "https://github.com/StevenSJones/burger",
+category: "nodejs"
 },
 {
-name: " ", 
-appURL: " ",
-description: " ",
-thumbnail: " ",
-GitHubURL: " ",
-category: " "
+name: "Game Tracker", 
+appURL: "https://glacial-taiga-04215.herokuapp.com/",
+description: "This application is designed for users that want to compile a collection of information pertaining to their favorite games in their own database.",
+thumbnail: "08-gameTracker.jpg",
+GitHubURL: "https://github.com/robkellen/GameTracker",
+category: "mongo"
 },
 {
-name: " ", 
-appURL: " ",
-description: " ",
-thumbnail: " ",
-GitHubURL: " ",
-category: " "
+name: "Workout Tracker", 
+appURL: "https://hidden-sea-72938.herokuapp.com/",
+description: "This app is designed to track a user's workout using javascript, a Mongo database with a Mongoose schema and route handling with Express.",
+thumbnail: "09-fitnessTracker.jpg",
+GitHubURL: "https://github.com/StevenSJones/workoutTrackerEleventhEdition",
+category: "mongo"
 },
 {
-name: " ", 
-appURL: " ",
-description: " ",
-thumbnail: " ",
-GitHubURL: " ",
-category: " "
+name: "Budget Tracker", 
+appURL: "https://github.com/StevenSJones/BudgetTrackerOnlineOfflineTwelfthEdition",
+description: "This app tracks a user's budget; both online and off, using javascript, a Mongo database with a Mongoose schema and route handling with Express as well as a logger using Morganjs.",
+thumbnail: "10-budgetTracker.jpg",
+GitHubURL: "https://github.com/StevenSJones/BudgetTrackerOnlineOfflineTwelfthEdition",
+category: "react"
 },
 {
-name: " ", 
-appURL: " ",
-description: " ",
-thumbnail: " ",
-GitHubURL: " ",
-category: " "
+name: "My React Portfolio", 
+appURL: "https://5f88c380e358651e96f02101--competent-stonebraker-251e1d.netlify.app/gallery",
+description: "A React.js portfolio with multiple components demonstrating my initial usage of react.",
+thumbnail: "11-reactPort.jpg",
+GitHubURL: "https://github.com/StevenSJones/my-react-portfolio",
+category: "react"
 },
 {
-name: " ", 
-appURL: " ",
-description: " ",
-thumbnail: " ",
-GitHubURL: " ",
-category: " "
+name: "Cocktail Lounge", 
+appURL: "https://cocktail-lounge.herokuapp.com/",
+description: "Users can search for cocktail recipes by name, liquor type, or other ingredients. Sign in and create an account and gain the ability to save your favorites, and even create your own recipes.",
+thumbnail: "12-cocktailLounge.jpg",
+GitHubURL: "https://github.com/jmuncrief/p3_cocktail_lounge",
+category: "mern"
 }
 ]; 
 
@@ -120,12 +120,12 @@ export default function Portfolio(props) {
                     </a>
                   </li>
                   <li>
-                    <a href="#" data-filter=".graphic">
+                    <a href="#" data-filter=".javascript">
                       Javascript
                     </a>
                   </li>
                   <li>
-                    <a href="#" data-filter=".illustration">
+                    <a href="#" data-filter=".nodejs">
                       Node.js
                     </a>
                   </li>
@@ -135,13 +135,13 @@ export default function Portfolio(props) {
                     </a>
                   </li>
                   <li>
-                    <a href="#" data-filter=".sql">
-                      SQL
+                    <a href="#" data-filter=".react">
+                    React
                     </a>
                   </li>
                   <li>
-                    <a href="#" data-filter=".react">
-                      React
+                    <a href="#" data-filter=".mern">
+                      MERN
                     </a>
                   </li>
                 </ol>
