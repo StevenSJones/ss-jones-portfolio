@@ -3,21 +3,21 @@ import React from "react";
 export default function Contact(props) {
   return (
     <>
-      <div id="contact" class="text-center">
-        <div class="container">
-          <div class="section-title center">
+      <div id="contact" className="text-center">
+        <div className="container">
+          <div className="section-title center">
             <h2>Get In Touch</h2>
             <hr />
           </div>
 
-          <div class="col text-center">
-            <img src="../../public/img/contact/contact.jpg" class="img-responsive contact-img" />
+          <div className="col text-center">
+            <img src="../../public/img/contact/contact.jpg" className="img-responsive contact-img" />
           </div>
 
-          <div class="col-md-8 col-md-offset-2">
-            <p class="emailContact">
+          <div className="col">
+            <p className="emailContact">
               <a
-                class="emailContact"
+                className="emailContact"
                 href="mailto:ssjones.code@gmail.com?Subject=KHA%20Portfolio"
                 target="_top"
               >
@@ -25,21 +25,21 @@ export default function Contact(props) {
               </a>
             </p>
 
-            <div class="social">
+            <div className="social">
               <ul>
                 <li>
                   <a href="https://github.com/StevenSJones">
-                    <i class="fa fa-github fa-4x"></i>
+                    <i className="fa fa-github fa-4x"></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.linkedin.com/in/steven-j-285a33115/">
-                    <i class="fa fa-linkedin fa-4x"></i>
+                    <i className="fa fa-linkedin fa-4x"></i>
                   </a>
                 </li>
                 <li>
                   <a href="https://twitter.com/ss_jones">
-                    <i class="fa fa-twitter fa-4x"></i>
+                    <i className="fa fa-twitter fa-4x"></i>
                   </a>
                 </li>
               </ul>

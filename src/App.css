@@ -163,9 +163,13 @@ h2 {
 }
 
 .categories {
-	padding-bottom: 2rem;
+	margin-bottom: 2rem;
 	text-align: center;
 }
+
+#portfolio a {
+  text-transform: uppercase;
+} 
 
 ul.cat li {
   display: inline-block;
@@ -192,19 +196,19 @@ ol.type li a.hover, a.active {
 
 /* contact */
 #contact {
-  padding: 120px 0 60px 0;
+  padding-top: .5rem;
   background-color: black;
 }
 
 #contact h2{
-  padding-top: 6rem;
+  margin-top: 6rem;
 }
 
+/* image doesnt show */
 #contact img {
   margin-top: 7rem;
 	border-radius: 50%;
   display: inline-block;
-  /* transform: scale(0.7) */
 }
 
 

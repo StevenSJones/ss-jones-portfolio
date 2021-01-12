@@ -21,7 +21,7 @@ export default function NavigationHeader() {
         </div>
       </header>
       {/* nav */}
-      <ul id="nav" class="nav row">
+      <ul id="nav" className="nav row">
         <li className="col">
           <a href="#about">about</a>
         </li>
