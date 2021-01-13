@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function Contact(props) {
+  
   return (
     <>
       <div id="contact" className="text-center">
@@ -11,7 +12,7 @@ export default function Contact(props) {
           </div>
 
           <div className="col text-center">
-            <img src="../../public/img/contact/contact.jpg" className="img-responsive contact-img" />
+            <img src="img/contact/contact.jpg" className="img-responsive contact-img" alt="Steven Jones in a houndstooth jacket and black shirt." />
           </div>
 
           <div className="col">
