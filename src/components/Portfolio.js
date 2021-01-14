@@ -1,595 +1,265 @@
-import React from "react";
+import React, { Component } from "react";
 
-{/* Array of 12 project objects */}
-const projects = [
-{
-name: "Password Generator", 
-appURL: "https://stevensjones.github.io/passwordGeneratorThirdEdition/",
-description: "Generate a password that meets your user specified criteria so that your passwords are more secure.",
-thumbnail: "01-pwGen.jpg",
-GitHubURL: "https://github.com/StevenSJones/passwordGeneratorThirdEdition",
-category: "javascript"
-},
-{
-name: "Code Quiz", 
-appURL: "https://stevensjones.github.io/codeQuizFourthEdition/",
-description: "Javascript based game that challenges users with coding related questions.",
-thumbnail: "02-codeQuiz.jpg",
-GitHubURL: "https://github.com/StevenSJones/codeQuizFourthEdition",
-category: "javascript"
-},
-{
-name: "Workday Calender", 
-appURL: "https://stevensjones.github.io/WorkDayCalenderFifthEdition/",
-description: "Work Day scheduler using javascript to create and save todos throughout the workday, or any day.",
-thumbnail: "03-wDScheduler.jpg",
-GitHubURL: "https://github.com/StevenSJones/WorkDayCalenderFifthEdition",
-category: "javascript"
-},
-{
-name: "Weather Dashboard", 
-appURL: "https://stevensjones.github.io/weatherDashboardSixthEdition/</div>",
-description: "The application retrieves weather data for the city of one's choosing.",
-thumbnail: "04-wDashboard.jpg",
-GitHubURL: "https://github.com/StevenSJones/weatherDashboardSixthEdition",
-category: "javascript"
-},
-{
-name: "City Info", 
-appURL: "https://jmuncrief.github.io/p1_location_info/",
-description: "This app allows a user to search current weather, current news, and recreation areas nearby the city searched.",
-thumbnail: "05-cityInfo.jpg",
-GitHubURL: "https://github.com/jmuncrief/p1_location_info",
-category: "javascript"
-},
-{
-name: "Note Taker", 
-appURL: "https://shielded-dawn-80021.herokuapp.com/",
-description: "Allows a user to write, save, and delete notes with the click of a button.",
-thumbnail: "06-noteTaker.jpg",
-GitHubURL: "https://github.com/StevenSJones/expressNoteTakerNinthEdition",
-category: "nodejs"
-},
-{
-name: "Eat Da Burger", 
-appURL: "https://intense-castle-15409.herokuapp.com/",
-description: "This application is a burger logger that allows the user to create a burger of their choosing and save the burger for later or devour it now!",
-thumbnail: "07-eatDaBurger.jpg",
-GitHubURL: "https://github.com/StevenSJones/burger",
-category: "nodejs"
-},
-{
-name: "Game Tracker", 
-appURL: "https://glacial-taiga-04215.herokuapp.com/",
-description: "This application is designed for users that want to compile a collection of information pertaining to their favorite games in their own database.",
-thumbnail: "08-gameTracker.jpg",
-GitHubURL: "https://github.com/robkellen/GameTracker",
-category: "mongo"
-},
-{
-name: "Workout Tracker", 
-appURL: "https://hidden-sea-72938.herokuapp.com/",
-description: "This app is designed to track a user's workout using javascript, a Mongo database with a Mongoose schema and route handling with Express.",
-thumbnail: "09-fitnessTracker.jpg",
-GitHubURL: "https://github.com/StevenSJones/workoutTrackerEleventhEdition",
-category: "mongo"
-},
-{
-name: "Budget Tracker", 
-appURL: "https://github.com/StevenSJones/BudgetTrackerOnlineOfflineTwelfthEdition",
-description: "This app tracks a user's budget; both online and off, using javascript, a Mongo database with a Mongoose schema and route handling with Express as well as a logger using Morganjs.",
-thumbnail: "10-budgetTracker.jpg",
-GitHubURL: "https://github.com/StevenSJones/BudgetTrackerOnlineOfflineTwelfthEdition",
-category: "react"
-},
-{
-name: "My React Portfolio", 
-appURL: "https://5f88c380e358651e96f02101--competent-stonebraker-251e1d.netlify.app/gallery",
-description: "A React.js portfolio with multiple components demonstrating my initial usage of react.",
-thumbnail: "11-reactPort.jpg",
-GitHubURL: "https://github.com/StevenSJones/my-react-portfolio",
-category: "react"
-},
-{
-name: "Cocktail Lounge", 
-appURL: "https://cocktail-lounge.herokuapp.com/",
-description: "Users can search for cocktail recipes by name, liquor type, or other ingredients. Sign in and create an account and gain the ability to save your favorites, and even create your own recipes.",
-thumbnail: "12-cocktailLounge.jpg",
-GitHubURL: "https://github.com/jmuncrief/p3_cocktail_lounge",
-category: "mern"
-}
-]; 
+export default class Portfolio extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      projects: [
+        {
+          name: "Password Generator",
+          appURL:
+            "https://stevensjones.github.io/passwordGeneratorThirdEdition/",
+          description:
+            "Generate a password that meets your user specified criteria so that your passwords are more secure.",
+          thumbnail: "01-pwGen.jpg",
+          gitHubURL:
+            "https://github.com/StevenSJones/passwordGeneratorThirdEdition",
+          category: "javascript",
+        },
+        {
+          name: "Code Quiz",
+          appURL: "https://stevensjones.github.io/codeQuizFourthEdition/",
+          description:
+            "Javascript based game that challenges users with coding related questions.",
+          thumbnail: "02-codeQuiz.jpg",
+          gitHubURL: "https://github.com/StevenSJones/codeQuizFourthEdition",
+          category: "javascript",
+        },
+        {
+          name: "Workday Calender",
+          appURL: "https://stevensjones.github.io/WorkDayCalenderFifthEdition/",
+          description:
+            "Work Day scheduler using javascript to create and save todos throughout the workday, or any day.",
+          thumbnail: "03-wDScheduler.jpg",
+          gitHubURL:
+            "https://github.com/StevenSJones/WorkDayCalenderFifthEdition",
+          category: "javascript",
+        },
+        {
+          name: "Weather Dashboard",
+          appURL:
+            "https://stevensjones.github.io/weatherDashboardSixthEdition/",
+          description:
+            "The application retrieves weather data for the city of one's choosing.",
+          thumbnail: "04-wDashboard.jpg",
+          gitHubURL:
+            "https://github.com/StevenSJones/weatherDashboardSixthEdition",
+          category: "javascript",
+        },
+        {
+          name: "City Info",
+          appURL: "https://jmuncrief.github.io/p1_location_info/",
+          description:
+            "This app allows a user to search current weather, current news, and recreation areas nearby the city searched.",
+          thumbnail: "05-cityInfo.jpg",
+          gitHubURL: "https://github.com/jmuncrief/p1_location_info",
+          category: "javascript",
+        },
+        {
+          name: "Note Taker",
+          appURL: "https://shielded-dawn-80021.herokuapp.com/",
+          description:
+            "Allows a user to write, save, and delete notes with the click of a button.",
+          thumbnail: "06-noteTaker.jpg",
+          gitHubURL:
+            "https://github.com/StevenSJones/expressNoteTakerNinthEdition",
+          category: "nodejs",
+        },
+        {
+          name: "Eat Da Burger",
+          appURL: "https://intense-castle-15409.herokuapp.com/",
+          description:
+            "This application is a burger logger that allows the user to create a burger of their choosing and save the burger for later or devour it now!",
+          thumbnail: "07-eatDaBurger.jpg",
+          gitHubURL: "https://github.com/StevenSJones/burger",
+          category: "nodejs",
+        },
+        {
+          name: "Game Tracker",
+          appURL: "https://glacial-taiga-04215.herokuapp.com/",
+          description:
+            "This application is designed for users that want to compile a collection of information pertaining to their favorite games in their own database.",
+          thumbnail: "08-gameTracker.jpg",
+          gitHubURL: "https://github.com/robkellen/GameTracker",
+          category: "mongo",
+        },
+        {
+          name: "Workout Tracker",
+          appURL: "https://hidden-sea-72938.herokuapp.com/",
+          description:
+            "This app is designed to track a user's workout using javascript, a Mongo database with a Mongoose schema and route handling with Express.",
+          thumbnail: "09-fitnessTracker.jpg",
+          gitHubURL:
+            "https://github.com/StevenSJones/workoutTrackerEleventhEdition",
+          category: "mongo",
+        },
+        {
+          name: "Budget Tracker",
+          appURL:
+            "https://github.com/StevenSJones/BudgetTrackerOnlineOfflineTwelfthEdition",
+          description:
+            "This app tracks a user's budget; both online and off, using javascript, a Mongo database with a Mongoose schema and route handling with Express as well as a logger using Morganjs.",
+          thumbnail: "10-budgetTracker.jpg",
+          gitHubURL:
+            "https://github.com/StevenSJones/BudgetTrackerOnlineOfflineTwelfthEdition",
+          category: "react",
+        },
+        {
+          name: "My React Portfolio",
+          appURL:
+            "https://5f88c380e358651e96f02101--competent-stonebraker-251e1d.netlify.app/gallery",
+          description:
+            "A React.js portfolio with multiple components demonstrating my initial usage of react.",
+          thumbnail: "11-reactPort.jpg",
+          gitHubURL: "https://github.com/StevenSJones/my-react-portfolio",
+          category: "react",
+        },
+        {
+          name: "Cocktail Lounge",
+          appURL: "https://cocktail-lounge.herokuapp.com/",
+          description:
+            "Users can search for cocktail recipes by name, liquor type, or other ingredients. Sign in and create an account and gain the ability to save your favorites, and even create your own recipes.",
+          thumbnail: "12-cocktailLounge.jpg",
+          gitHubURL: "https://github.com/jmuncrief/p3_cocktail_lounge",
+          category: "mern",
+        }
+      ],
+      filteredProjects: []
+    };
+  }
+  //the event referrenced below is the onClick
+  filterProject(event) {
+    event.preventDefault();
+    let categoryFilter = event.target.dataset.filter;
+    //the this.state below comes from the binding when a button is pressed below.
+    let projectSubset = this.state.projects.filter((project) => {
+      return (project.category === categoryFilter);
+    });
 
-export default function Portfolio(props) {
-  return (
-    <>
-      {/* Portfolio Section  */}
-      <div id="portfolio">
-        <div className="container">
-          <div className="section-title text-center center">
-            <h2>Portfolio</h2>
-            <hr />
+    this.setState({ filteredProjects: projectSubset });
+  }
+
+  handleSort() {
+
+  }
+
+  // life cycle method: when Portfolio component is loaded into the DOM, do the following. Think of ComponentDidMount as a question. Did Component Mount? If yes, then projects which has had its state value set is copied to filteredProjects just below.
+  componentDidMount() {
+    this.setState({ filteredProjects: this.state.projects });
+  }
+
+  //this is the render associated with a class component that is NOT present in the functional component.
+  render() {
+    let projectCards = this.state.projects.map((project, index) => {
+      return (
+        <div key={index} className="col graphic">
+          <div className="portfolio-item">
+            <div className="hover-bg">
+              <a
+                href={project.appURL}
+                title={project.name}
+                target="_blank"
+                rel="noreferrer"
+                data-lightbox-gallery="gallery1"
+              >
+                <div className="hover-text">
+                  <h4>{project.name}</h4>
+                </div>
+                <img
+                  src={"./img/portfolio/" + project.thumbnail}
+                  className="img-responsive"
+                  alt={"project.name"}
+                />
+              </a>
+            </div>
           </div>
-          <div className="categories">
-            <ul className="cat">
-              <li>
-                <ol className="type">
-                  <li>
-                    <a href="#" data-filter="*" className="active">
-                      All
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" data-filter=".javascript">
-                      Javascript
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" data-filter=".nodejs">
-                      Node.js
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" data-filter=".mongo">
-                      Mongo
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" data-filter=".react">
-                    React
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" data-filter=".mern">
-                      MERN
-                    </a>
-                  </li>
-                </ol>
-              </li>
-            </ul>
-            <div className="clearfix"></div>
-          </div>
-          <div className="portfolio-items">
-            
-            {/* app number 1 */}
-            <div className="row">
-              <div className="col graphic">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    <a
-                      href="https://stevensjones.github.io/passwordGeneratorThirdEdition/"
-                      title="password generator"
-                      target="_blank"
-                      rel="noreferrer"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Password Generator</h4>
-                      </div>
-                      <img
-                        src="./img/portfolio/01-pwGen.jpg"
-                        className="img-responsive"
-                        alt="password generator"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <p>
-                  Generate a password that meets your user specified criteria so
-                  that your passwords are more secure.
-                </p>
-                <a
-                  className="github"
-                  href="https://github.com/StevenSJones/passwordGeneratorThirdEdition"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View GitHub Code
-                </a>
-              </div>
-              {/* app number 2  */}
-              <div className="col graphic">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    <a
-                      href="https://stevensjones.github.io/codeQuizFourthEdition/"
-                      title="code quiz"
-                      target="_blank"
-                      rel="noreferrer"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Code Quiz</h4>
-                      </div>
-                      <img
-                        src="./img/portfolio/02-codeQuiz.jpg"
-                        className="img-responsive"
-                        alt="code quiz"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <p>
-                  Javascript based game that challenges users with coding
-                  related questions.
-                </p>
-                <a
-                  className="github"
-                  href="https://github.com/StevenSJones/codeQuizFourthEdition"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View GitHub Code
-                </a>
-              </div>
-              {/* app number 3  */}
-              <div className="col graphic">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    <a
-                      href="https://stevensjones.github.io/WorkDayCalenderFifthEdition/"
-                      title="workday calender"
-                      target="_blank"
-                      rel="noreferrer"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Workday Calender</h4>
-                      </div>
-                      <img
-                        src="./img/portfolio/03-wDScheduler.jpg"
-                        className="img-responsive"
-                        alt="workday calender"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <p>
-                  Work Day scheduler using javascript to create and save todos
-                  throughout the workday, or any day.
-                </p>
-                <a
-                  className="github"
-                  href="https://github.com/StevenSJones/WorkDayCalenderFifthEdition"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View GitHub Code
-                </a>
-              </div>
-              {/* app number 4  */}
-              <div className="row">
-                <div className="col graphic">
-                  <div className="portfolio-item">
-                    <div className="hover-bg">
+          <p>{project.description}</p>
+          <a
+            className="github"
+            href={project.gitHubURL}
+            target="_blank"
+            rel="noreferrer"
+          >
+            View GitHub Code
+          </a>
+        </div>
+      );
+    });
+    return (
+      <>
+        {/* Portfolio Section  */}
+        <div id="portfolio">
+          <div className="container">
+            <div className="section-title text-center center">
+              <h2>Portfolio</h2>
+              <hr />
+            </div>
+            <div className="categories">
+              <ul className="cat">
+                <li>
+                  <ol className="type">
+                    <li>
                       <a
-                        href="https://stevensjones.github.io/weatherDashboardSixthEdition/"
-                        title="Weather Dashboard"
-                        target="_blank"
-                        rel="noreferrer"
-                        data-lightbox-gallery="gallery1"
+                        data-filter="*"
+                        className="active"
+                        // when clicked, this from the projects is bound to the this in filteredProject so filteredProjects knows what this we are referring to above in the function definition of filteredProject(){}. 
+                        onClick={this.filterProject.bind(this)}
                       >
-                        <div className="hover-text">
-                          <h4>Weather Dashboard</h4>
-                        </div>
-                        <img
-                          src="./img/portfolio/04-wDashboard.jpg"
-                          className="img-responsive"
-                          alt="weather dashboard"
-                        />
+                        All
                       </a>
-                    </div>
-                  </div>
-                  <p>
-                    {" "}
-                    The application retrieves weather data for the city of one's
-                    choosing.
-                  </p>
-                  <a
-                    className="github"
-                    href="https://github.com/StevenSJones/weatherDashboardSixthEdition"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View GitHub Code
-                  </a>
-                </div>
-                {/*  app number 5  */}
-                <div className="col illustration">
-                  <div className="portfolio-item">
-                    <div className="hover-bg">
+                    </li>
+                    <li>
                       <a
-                        href="https://jmuncrief.github.io/p1_location_info/"
-                        title="city info"
-                        target="_blank"
-                        rel="noreferrer"
-                        data-lightbox-gallery="gallery1"
+                        data-filter="javascript"
+                        onClick={this.filterProject.bind(this)}
                       >
-                        <div className="hover-text">
-                          <h4>City Info</h4>
-                        </div>
-                        <img
-                          src="./img/portfolio/05-cityInfo.jpg"
-                          className="img-responsive"
-                          alt="city info"
-                        />
+                        Javascript
                       </a>
-                    </div>
-                  </div>
-                  <p>
-                    This app allows a user to search current weather, current
-                    news, and recreation areas nearby the city searched.
-                  </p>
-                  <a
-                    className="github"
-                    href="https://github.com/jmuncrief/p1_location_info"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View GitHub Code
-                  </a>
-                </div>
-                {/*  app number 6  */}
-                <div className="col illustration">
-                  <div className="portfolio-item">
-                    <div className="hover-bg">
+                    </li>
+                    <li>
                       <a
-                        href="https://shielded-dawn-80021.herokuapp.com/"
-                        title="note taker"
-                        target="_blank"
-                        rel="noreferrer"
-                        data-lightbox-gallery="gallery1"
+                        data-filter="nodejs"
+                        onClick={this.filterProject.bind(this)}
                       >
-                        <div className="hover-text">
-                          <h4>Note Taker</h4>
-                        </div>
-                        <img
-                          src="./img/portfolio/06-noteTaker.jpg"
-                          className="img-responsive"
-                          alt="note taker"
-                        />
+                        Node.js
                       </a>
-                    </div>
-                  </div>
-                  <p>
-                    Allows a user to write, save, and delete notes with the
-                    click of a button.
-                  </p>
-                  <a
-                    className="github"
-                    href="https://github.com/StevenSJones/expressNoteTakerNinthEdition"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View GitHub Code
-                  </a>
-                </div>
-              </div>
-              {/* app number 7  */}
-              <div className="row">
-                <div className="col illustration">
-                  <div className="portfolio-item">
-                    <div className="hover-bg">
+                    </li>
+                    <li>
                       <a
-                        href="https://intense-castle-15409.herokuapp.com/"
-                        title="eat da burger"
-                        target="_blank"
-                        rel="noreferrer"
-                        data-lightbox-gallery="gallery1"
+                        data-filter="mongo"
+                        onClick={this.filterProject.bind(this)}
                       >
-                        <div className="hover-text">
-                          <h4>Eat Da Burger</h4>
-                        </div>
-                        <img
-                          src="img/portfolio/07-eatDaBurger.jpg"
-                          className="img-responsive"
-                          alt="eat da burger"
-                        />
+                        Mongo
                       </a>
-                    </div>
-                  </div>
-                  <p>
-                    This application is a burger logger that allows the user to
-                    create a burger of their choosing and save the burger for
-                    later or devour it now!
-                  </p>
-                  <a
-                    className="github"
-                    href="https://github.com/StevenSJones/burger"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View GitHub Code
-                  </a>
-                </div>
-                {/* app number 8  */}
-                <div className="col illustration">
-                  <div className="portfolio-item">
-                    <div className="hover-bg">
+                    </li>
+                    <li>
                       <a
-                        href="https://glacial-taiga-04215.herokuapp.com/"
-                        title="game tracker"
-                        target="_blank"
-                        rel="noreferrer"
-                        data-lightbox-gallery="gallery1"
+                        data-filter="react"
+                        onClick={this.filterProject.bind(this)}
                       >
-                        <div className="hover-text">
-                          <h4>Game Tracker</h4>
-                        </div>
-                        <img
-                          src="img/portfolio/08-gameTracker.jpg"
-                          className="img-responsive"
-                          alt="game tracker"
-                        />
+                        React
                       </a>
-                    </div>
-                  </div>
-                  <p>
-                    This application is designed for users that want to compile
-                    a collection of information pertaining to their favorite
-                    games in their own database.
-                  </p>
-                  <a
-                    className="github"
-                    href=" https://github.com/robkellen/GameTracker"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View GitHub Code
-                  </a>
-                </div>
-                {/* app number 9  */}
-                <div className="col mongo">
-                  <div className="portfolio-item">
-                    <div className="hover-bg">
+                    </li>
+                    <li>
                       <a
-                        href="https://hidden-sea-72938.herokuapp.com/"
-                        title="Workout Tracker"
-                        target="_blank"
-                        rel="noreferrer"
-                        data-lightbox-gallery="gallery1"
+                        data-filter="mern"
+                        onClick={this.filterProject.bind(this)}
                       >
-                        <div className="hover-text">
-                          <h4>Workout Tracker</h4>
-                        </div>
-                        <img
-                          src="img/portfolio/09-fitnessTracker.jpg"
-                          className="img-responsive"
-                          alt="workout tracker"
-                        />
+                        MERN
                       </a>
-                    </div>
-                  </div>
-                  <p>
-                    This app is designed to track a user's workout using
-                    javascript, a Mongo database with a Mongoose schema and
-                    route handling with Express.
-                  </p>
-                  <a
-                    className="github"
-                    href="https://github.com/StevenSJones/workoutTrackerEleventhEdition"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View GitHub Code
-                  </a>
-                </div>
-              </div>
-              {/* app number 10  */}
-              <div className="row">
-                <div className="col mongo">
-                  <div className="portfolio-item">
-                    <div className="hover-bg">
-                      <a
-                        href="https://github.com/StevenSJones/BudgetTrackerOnlineOfflineTwelfthEdition"
-                        data-lightbox-gallery="gallery1"
-                        title="Budget Tracker"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <div className="hover-text">
-                          <h4>Budget Tracker</h4>
-                        </div>
-                        <img
-                          src="img/portfolio/10-budgetTracker.jpg"
-                          className="img-responsive"
-                          alt="budget tracker"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <p>
-                    This app tracks a user's budget; both online and off, using
-                    javascript, a Mongo database with a Mongoose schema and
-                    route handling with Express as well as a logger using
-                    Morganjs.
-                  </p>
-                  <a
-                    className="github"
-                    href="https://github.com/StevenSJones/BudgetTrackerOnlineOfflineTwelfthEdition"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View GitHub Code
-                  </a>
-                </div>
-                {/*  app number 11  */}
-                <div className="col react">
-                  <div className="portfolio-item">
-                    <div className="hover-bg">
-                      <a
-                        href="https://5f88c380e358651e96f02101--competent-stonebraker-251e1d.netlify.app/gallery"
-                        title="my react portfolio"
-                        target="_blank"
-                        rel="noreferrer"
-                        data-lightbox-gallery="gallery1"
-                      >
-                        <div className="hover-text">
-                          <h4>My React Portfolio</h4>
-                        </div>
-                        <img
-                          src="img/portfolio/11-reactPort.jpg"
-                          className="img-responsive"
-                          alt="my react portfolio"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <p>
-                    A React.js portfolio with multiple components demonstrating
-                    my initial usage of react.
-                  </p>
-                  <a
-                    className="github"
-                    href="https://github.com/StevenSJones/my-react-portfolio"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View GitHub Code
-                  </a>
-                </div>
-                {/*  app number 12  */}
-                <div className="col react mongo illustration">
-                  <div className="portfolio-item">
-                    <div className="hover-bg">
-                      <a
-                        href=" https://cocktail-lounge.herokuapp.com/"
-                        title="coctail lounge"
-                        target="_blank"
-                        rel="noreferrer"
-                        data-lightbox-gallery="gallery1"
-                      >
-                        <div className="hover-text">
-                          <h4>Cocktail Lounge</h4>
-                        </div>
-                        <img
-                          src="img/portfolio/12-cocktailLounge.jpg"
-                          className="img-responsive"
-                          alt="cocktail lounge"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <p>
-                    Users can search for cocktail recipes by name, liquor type,
-                    or other ingredients. Sign in and create an account and gain
-                    the ability to save your favorites, and even create your own
-                    recipes.
-                  </p>
-                  <a
-                    className="github"
-                    href="https://github.com/jmuncrief/p3_cocktail_lounge"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View GitHub Code
-                  </a>
-                </div>
-              </div>
+                    </li>
+                  </ol>
+                </li>
+              </ul>
+              <div className="clearfix"></div>
+            </div>
+            <div className="portfolio-items">
+              {/* app number 1 */}
+              <div className="row">{projectCards}</div>
             </div>
           </div>
         </div>
-      </div>
-    </>
-  );
+      </>
+    );
+  }
 }
