@@ -209,7 +209,7 @@ ol.type li a.hover, a.active {
   margin-top: 7rem;
 	border-radius: 50%;
   display: inline-block;
-  transform: scale(1.0)
+  transform: scale(.5)
 }
 
 
