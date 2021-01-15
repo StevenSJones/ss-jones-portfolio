@@ -3,6 +3,7 @@ import React, { Component } from "react";
 export default class Portfolio extends Component {
   constructor(props) {
     super(props);
+    //state is equal to an object. projects is an array of objects. the state is set here to an array of objects
     this.state = {
       projects: [
         {
@@ -130,7 +131,7 @@ export default class Portfolio extends Component {
   //the event referrenced below is the onClick
   filterProject(event) {
     event.preventDefault();
-    let categoryFilter = event.target.dataset.filter;
+    let categoryFilter = event.target.dataset.category;
     //the this.state below comes from the binding when a button is pressed below.
     let projectSubset = this.state.projects.filter((project) => {
       return (project.category === categoryFilter);
@@ -149,8 +150,10 @@ export default class Portfolio extends Component {
   }
 
   //this is the render associated with a class component that is NOT present in the functional component.
+  //parameters project and index are value:index.
+  //I had projectCards = this.state.projects and that set the state to the master array with all 12 everytime. That was the bug.
   render() {
-    let projectCards = this.state.projects.map((project, index) => {
+    let projectCards = this.state.filteredProjects.map((project, index) => {
       return (
         <div key={index} className="col graphic">
           <div className="portfolio-item">
@@ -200,7 +203,7 @@ export default class Portfolio extends Component {
                   <ol className="type">
                     <li>
                       <a
-                        data-filter="*"
+                        data-category="*"
                         className="active"
                         // when clicked, this from the projects is bound to the this in filteredProject so filteredProjects knows what this we are referring to above in the function definition of filteredProject(){}. 
                         onClick={this.filterProject.bind(this)}
@@ -210,7 +213,7 @@ export default class Portfolio extends Component {
                     </li>
                     <li>
                       <a
-                        data-filter="javascript"
+                        data-category="javascript"
                         onClick={this.filterProject.bind(this)}
                       >
                         Javascript
@@ -218,7 +221,7 @@ export default class Portfolio extends Component {
                     </li>
                     <li>
                       <a
-                        data-filter="nodejs"
+                        data-category="nodejs"
                         onClick={this.filterProject.bind(this)}
                       >
                         Node.js
@@ -226,7 +229,7 @@ export default class Portfolio extends Component {
                     </li>
                     <li>
                       <a
-                        data-filter="mongo"
+                        data-category="mongo"
                         onClick={this.filterProject.bind(this)}
                       >
                         Mongo
@@ -234,7 +237,7 @@ export default class Portfolio extends Component {
                     </li>
                     <li>
                       <a
-                        data-filter="react"
+                        data-category="react"
                         onClick={this.filterProject.bind(this)}
                       >
                         React
@@ -242,7 +245,7 @@ export default class Portfolio extends Component {
                     </li>
                     <li>
                       <a
-                        data-filter="mern"
+                        data-category="mern"
                         onClick={this.filterProject.bind(this)}
                       >
                         MERN
