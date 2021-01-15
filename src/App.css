@@ -1,10 +1,11 @@
-body, html {
-  font-family: 'Open Sans', sans-serif;
+body,
+html {
+  font-family: "Open Sans", sans-serif;
   color: rgb(197, 164, 102);
   /* text-rendering: The browser emphasizes legibility over rendering speed and geometric precision. This enables kerning and optional ligatures. */
-	text-rendering: optimizeLegibility !important;
-	-webkit-font-smoothing: antialiased !important;
-	width: 100% !important;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  width: 100% !important;
   height: 100% !important;
 }
 
@@ -15,38 +16,39 @@ body, html {
   text-align: center;
   width: 100%;
   height: 50rem;
-	padding: 0;
-	color:antiquewhite;
-	background: url(https://images.pexels.com/photos/220071/pexels-photo-220071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350) no-repeat center top;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+  padding: 0;
+  color: antiquewhite;
+  background: url(https://images.pexels.com/photos/220071/pexels-photo-220071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350)
+    no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-.img-responsive{
+.img-responsive {
   height: 100%;
   width: 100%;
-  }
+}
 
-  header .intro-text {
-    margin-top: 15rem;
-    margin-bottom: 20rem;    
-  }
+header .intro-text {
+  margin-top: 15rem;
+  margin-bottom: 20rem;
+}
 
 .intro h1 {
-  text-align: center; 
-	font-size: 4rem;
-	font-weight: 600;
-	letter-spacing: .25rem;
-	text-transform: uppercase;
-	margin-bottom: 1rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
   color: rgb(197, 164, 102);
 }
 
 .intro p {
-	font-size: 1rem;
-	margin-bottom: 2rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
   margin-top: 2rem;
   color: rgb(197, 164, 102);
 }
@@ -55,7 +57,7 @@ hr {
   width: 15%;
   text-align: center;
   position: relative;
-  background: #555;;
+  background: #555;
   margin: 0 auto;
   border: 0;
 }
@@ -64,12 +66,13 @@ hr {
   color: rgb(197, 164, 102);
   text-transform: uppercase;
   border-color: rgb(197, 164, 102);
-	border-radius: 0;
+  border-radius: 0;
   margin-top: 2rem;
   margin-bottom: 11rem;
 }
 
-.intro a:hover, a:focus {
+.intro a:hover,
+a:focus {
   text-decoration: none;
   color: white;
 }
@@ -78,8 +81,8 @@ hr {
 /* nav */
 
 .nav {
-  background-color: white; 
-  color:#777;
+  background-color: white;
+  color: #777;
   list-style-type: none;
   text-align: center;
   margin: 0;
@@ -89,38 +92,39 @@ hr {
 ul.nav li {
   display: inline-block;
   text-transform: uppercase;
-  color:#777;
+  color: #777;
   font-size: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-li:hover, li:focus {
-  color:#777;
+li:hover,
+li:focus {
+  color: #777;
   text-decoration: none;
 }
 
 li a {
-  color:#777;
+  color: #777;
 }
 
 li a:hover {
-  color:black;
+  color: black;
 }
 
 /*===================================================*/
 /* about */
 #about img {
   margin-top: 3.5rem;
-	border-radius: 50%;
+  border-radius: 50%;
   display: inline-block;
-  transform: scale(0.7)
+  transform: scale(0.7);
 }
 
 .personalSummary {
   padding-top: 6rem;
-  background-color: black; 
-  color:white
+  background-color: black;
+  color: white;
 }
 
 #about .about-text {
@@ -129,23 +133,24 @@ li a:hover {
 }
 
 h2 {
-	color:white;
-	text-transform: uppercase;
-	letter-spacing: .5rem;
-	font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-weight: 400;
 }
 
 #about a {
   background-color: transparent;
-  color:white;
+  color: white;
   text-transform: uppercase;
   border-color: white;
-	border-radius: 0;
+  border-radius: 0;
   margin-top: 4.5rem;
   margin-bottom: 11rem;
 }
 
-#about a:hover, a:focus {
+#about a:hover,
+a:focus {
   text-decoration: none;
   color: rgb(197, 164, 102);
 }
@@ -155,21 +160,21 @@ h2 {
 /* portfolio */
 #portfolio {
   background-color: black;
-  color: white; 
+  color: white;
 }
 
-#portfolio h2{
+#portfolio h2 {
   padding-top: 6rem;
 }
 
 .categories {
-	margin-bottom: 2rem;
-	text-align: center;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 #portfolio a {
   text-transform: uppercase;
-} 
+}
 
 ul.cat li {
   display: inline-block;
@@ -178,38 +183,37 @@ ul.cat li {
 }
 
 ol.type li {
-	display: inline-block;
-	margin-left: 1rem;
+  display: inline-block;
+  margin-left: 1rem;
 }
 
 ol.type li a {
-	border: 1px solid #777;
-	padding: .5rem 2rem;
+  border: 1px solid #777;
+  padding: 0.5rem 2rem;
 }
 
-ol.type li a.hover, a.active {
-	border: 1px solid #222;
-	color: rgb(197, 164, 102);
+ol.type li a.hover,
+a.active {
+  border: 1px solid #222;
+  color: rgb(197, 164, 102);
 }
+
 
 /*===================================================*/
 
 /* contact */
 #contact {
-  padding-top: .5rem;
+  padding-top: 0.5rem;
   background-color: black;
 }
 
-#contact h2{
+#contact h2 {
   margin-top: 6rem;
 }
 
-/* image doesnt show */
 #contact img {
   margin-top: 7rem;
-	border-radius: 50%;
+  border-radius: 50%;
   display: inline-block;
-  transform: scale(.5)
+  transform: scale(0.5);
 }
-
-
