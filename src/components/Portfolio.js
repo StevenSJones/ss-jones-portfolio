@@ -133,16 +133,17 @@ export default class Portfolio extends Component {
     event.preventDefault();
     let categoryFilter = event.target.dataset.category;
     //the this.state below comes from the binding when a button is pressed below.
-    let projectSubset = this.state.projects.filter((project) => {
-      return (project.category === categoryFilter);
-    });
-
+    //this logic is so that the all button works after another button is pressed. When that wasn't there the list was empty when I pressed all after having pressed any other category button.
+    if (categoryFilter === "all") {
+      this.setState({ filteredProjects: this.state.projects });
+    } else {
+      let projectSubset = this.state.projects.filter((project) => {
+        return (project.category === categoryFilter);
+      });
+    
     this.setState({ filteredProjects: projectSubset });
   }
-
-  handleSort() {
-
-  }
+}
 
   // life cycle method: when Portfolio component is loaded into the DOM, do the following. Think of ComponentDidMount as a question. Did Component Mount? If yes, then projects which has had its state value set is copied to filteredProjects just below.
   componentDidMount() {
@@ -203,7 +204,7 @@ export default class Portfolio extends Component {
                   <ol className="type">
                     <li>
                       <a
-                        data-category="*"
+                        data-category="all"
                         className="active"
                         // when clicked, this from the projects is bound to the this in filteredProject so filteredProjects knows what this we are referring to above in the function definition of filteredProject(){}. 
                         onClick={this.filterProject.bind(this)}
