@@ -176,16 +176,16 @@ export default class Portfolio extends Component {
                 />
               </a>
             </div>
-          </div>
           <p>{project.description}</p>
           <a
             className="github"
             href={project.gitHubURL}
             target="_blank"
             rel="noreferrer"
-          >
+            >
             View GitHub Code
           </a>
+            </div>
         </div>
       );
     });
