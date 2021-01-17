@@ -17,9 +17,3 @@ function App() {
 }
 
 export default App;
-
-// function App() {
-//   return <tick/>;
-//   }
-
-//   export default App;
