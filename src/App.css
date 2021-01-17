@@ -204,6 +204,7 @@ a:focus {
 #portfolio a:hover {
   text-transform: uppercase;
   color: rgb(197, 164, 102);
+  cursor: pointer;
 }
 
 #portfolio p {
