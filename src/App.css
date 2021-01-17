@@ -75,6 +75,11 @@ hr {
 a:focus {
   text-decoration: none;
   color: white;
+  -webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 /*==============*/
@@ -153,6 +158,11 @@ h2 {
 a:focus {
   text-decoration: none;
   color: rgb(197, 164, 102);
+  -webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 /*===================================================*/
@@ -188,6 +198,19 @@ a:focus {
 
 #portfolio a {
   text-transform: uppercase;
+  color: white;
+}
+
+#portfolio a:hover {
+  text-transform: uppercase;
+}
+
+#portfolio p {
+  color: white;
+}
+
+#portfolio p:hover {
+  color: rgb(197, 164, 102);
 }
 
 #portfolio img {
