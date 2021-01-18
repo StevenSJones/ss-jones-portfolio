@@ -31,12 +31,12 @@ export default function About(props) {
                       engineering principles, organization skills, and customer
                       service expertise. Adroit at building applications using
                       React, Express and MongoDB. As an unremitting scholar, I
-                      am both seeking ways to acquire a knowledge base of and
+                      am seeking ways to acquire a knowledge base of and
                       implement novel technologies. Motivated to achieve both
                       personal and professional success by a strong work ethic,
                       I am seeking a role as a developer that affords me the
                       opportunity to demonstrate my current abilities while
-                      simultaneously evolving so as to master my craft.{" "}
+                      simultaneously evolving so as to master my craft.
                     </p>
                     <a
                       href="#portfolio"
