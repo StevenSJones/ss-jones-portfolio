@@ -18,8 +18,9 @@ html {
   height: 50rem;
   padding: 0;
   color: antiquewhite;
-  background: url(https://images.pexels.com/photos/220071/pexels-photo-220071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350)
-    no-repeat center top;
+  background-image: url(/src/img/introGold/introGold.jpg);
+  /* background: url(https://images.pexels.com/photos/220071/pexels-photo-220071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350)
+    no-repeat center top; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -43,14 +44,14 @@ header .intro-text {
   letter-spacing: 0.25rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  color: rgb(197, 164, 102);
+  color: white;
 }
 
 .intro p {
   font-size: 1rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  color: rgb(197, 164, 102);
+  color: white;
 }
 
 hr {
@@ -63,9 +64,9 @@ hr {
 }
 
 .intro a {
-  color: rgb(197, 164, 102);
+  color: white;
   text-transform: uppercase;
-  border-color: rgb(197, 164, 102);
+  border-color: white;
   border-radius: 0;
   margin-top: 2rem;
   margin-bottom: 11rem;
@@ -74,7 +75,7 @@ hr {
 .intro a:hover,
 a:focus {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 0, 0);
   -webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);

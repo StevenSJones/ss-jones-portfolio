@@ -103,7 +103,7 @@ export default class Portfolio extends Component {
           thumbnail: "10-budgetTracker.jpg",
           gitHubURL:
             "https://github.com/StevenSJones/BudgetTrackerOnlineOfflineTwelfthEdition",
-          category: "react",
+          category: "mongo",
         },
         {
           name: "My React Portfolio",

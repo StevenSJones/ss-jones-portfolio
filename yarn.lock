@@ -1422,6 +1422,11 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@iconify-icons/fa-brands@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/fa-brands/-/fa-brands-1.1.0.tgz#4ae09ccffae597fe1add51c6e4fcfdbe1a455444"
+  integrity sha512-uOoUArSBCSUno12F3oINCtD5ya61evR0Tr8NH1J0b8FwYBVSo942Kdbvj5RC5NsL9j+OvyMbkGJa512mpvG0GQ==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
