@@ -215,6 +215,7 @@ export default class Portfolio extends Component {
                     <li>
                       <a
                         data-category="javascript"
+                        className="active"
                         onClick={this.filterProject.bind(this)}
                       >
                         Javascript
@@ -223,6 +224,7 @@ export default class Portfolio extends Component {
                     <li>
                       <a
                         data-category="nodejs"
+                        className="active"
                         onClick={this.filterProject.bind(this)}
                       >
                         Node.js
@@ -231,6 +233,7 @@ export default class Portfolio extends Component {
                     <li>
                       <a
                         data-category="mongo"
+                        className="active"
                         onClick={this.filterProject.bind(this)}
                       >
                         Mongo
@@ -239,6 +242,7 @@ export default class Portfolio extends Component {
                     <li>
                       <a
                         data-category="react"
+                        className="active"
                         onClick={this.filterProject.bind(this)}
                       >
                         React
@@ -247,6 +251,7 @@ export default class Portfolio extends Component {
                     <li>
                       <a
                         data-category="mern"
+                        className="active"
                         onClick={this.filterProject.bind(this)}
                       >
                         MERN
