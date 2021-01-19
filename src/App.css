@@ -248,7 +248,14 @@ a.active {
   border: .75rem;
   border-color: white;
   border-style: ridge;
-  min-height: 476px;
+  min-height: 508px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.github {
+  margin-bottom: 1rem;
 }
 
 /* makes the card bigger when hovered over */
@@ -274,16 +281,28 @@ a.active {
   margin-top: 6rem;
 }
 
-#contact img {
-  margin-top: -10rem;
+.contact-img {
   border-radius: 50%;
   display: inline-block;
-  transform: scale(0.5);
+  height: 400px;
+  width: 400px;
+}
+
+.img-wrapper {
+  margin-top: 6rem;
+  height: 50%;
+  width: 50% !important;
+  display: grid;
+  /* flex-direction: column;
+  justify-content: flex-start; */
+  grid-template-rows: auto 1fr;
+  place-items: center;
 }
 
 .emailContact{
 	color: white;
-	font-size: 2rem;
+  font-size: 2rem;
+  margin-top: 6rem;
 }
 
 .emailContact:hover {
