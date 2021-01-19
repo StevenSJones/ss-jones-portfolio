@@ -159,6 +159,7 @@ export default class Portfolio extends Component {
         <div key={index} className="col graphic">
           <div className="portfolio-item">
             <div className="hover-bg">
+            {/*  eslint-disable-next-line */}
               <a
                 href={project.appURL}
                 title={project.name}
@@ -203,6 +204,7 @@ export default class Portfolio extends Component {
                 <li>
                   <ol className="type">
                     <li>
+                    {/* eslint-disable-next-line */}
                       <a
                         data-category="all"
                         className="active"
@@ -213,6 +215,7 @@ export default class Portfolio extends Component {
                       </a>
                     </li>
                     <li>
+                      {/* eslint-disable-next-line */}
                       <a
                         data-category="javascript"
                         className="active"
@@ -222,6 +225,7 @@ export default class Portfolio extends Component {
                       </a>
                     </li>
                     <li>
+                      {/* eslint-disable-next-line */}
                       <a
                         data-category="nodejs"
                         className="active"
@@ -231,6 +235,7 @@ export default class Portfolio extends Component {
                       </a>
                     </li>
                     <li>
+                      {/* eslint-disable-next-line */}
                       <a
                         data-category="mongo"
                         className="active"
@@ -240,6 +245,7 @@ export default class Portfolio extends Component {
                       </a>
                     </li>
                     <li>
+                      {/* eslint-disable-next-line */}
                       <a
                         data-category="react"
                         className="active"
@@ -249,6 +255,7 @@ export default class Portfolio extends Component {
                       </a>
                     </li>
                     <li>
+                      {/* eslint-disable-next-line */}
                       <a
                         data-category="mern"
                         className="active"
