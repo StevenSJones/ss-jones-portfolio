@@ -163,7 +163,7 @@ export default class Portfolio extends Component {
                 href={project.appURL}
                 title={project.name}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 data-lightbox-gallery="gallery1"
               >
                 <div className="hover-text">
@@ -181,7 +181,7 @@ export default class Portfolio extends Component {
             className="github"
             href={project.gitHubURL}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             >
             View GitHub Code
           </a>
