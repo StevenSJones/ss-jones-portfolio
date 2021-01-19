@@ -74,14 +74,20 @@ hr {
 
 .intro a:hover,
 a:focus {
-  background-color: black;
+  background-color:rgb(197, 164, 102);
   text-decoration: none;
-  color:rgb(197, 164, 102);
+  color:black;
+  box-shadow: 0 0 5px rgb(197, 164, 102),
+  0 0 25px rgb(197, 164, 102),
+  0 0 50px rgb(197, 164, 102),
+  0 0 200px rgb(197, 164, 102);
+  -webkit-box-reflect: below 1px linear-gradient(transparent, black);
   -webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	-o-transform: scale(1.1);
-	transform: scale(1.1);
+  transform: scale(1.1);
+  
 }
 
 /*==============*/
@@ -117,6 +123,40 @@ li a {
 
 li a:hover {
   color: black;
+}
+
+.bounce {
+  height: 1rem;
+  width: 1rem;
+  background:rgb(197, 164, 102);
+  border-radius: 50%;
+  margin: 0 auto;
+  left: 0;
+  right: 6rem;
+  position: absolute;
+  transform: translateY(-2rem);
+  animation: bounce 1s infinite cubic-bezier(0.30, 2.80, .85, 2.50);
+}
+
+.ballTwo {
+  background:rgb(197, 164, 102);
+  right: 9rem;
+}
+
+.ballThree {
+  background:rgb(197, 164, 102);
+  right: 8rem;
+}
+
+@keyframes bounce {
+  from, to {
+    transform: translateY(0);
+    height: 1rem;
+  } 
+  70% {
+    transform: translateY(-1rem);
+    height: 1.1rem;
+  }
 }
 
 /*===================================================*/

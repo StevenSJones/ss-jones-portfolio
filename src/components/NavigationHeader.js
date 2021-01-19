@@ -24,12 +24,15 @@ export default function NavigationHeader() {
       <ul id="nav" className="nav row">
         <li className="col">
           <a href="#about">about</a>
+          <div className="bounce"></div>
         </li>
         <li className="col">
           <a href="#portfolio">portfolio</a>
+          <div className="bounce ballTwo"></div>
         </li>
         <li className="col">
           <a href="#contact">contact</a>
+          <div className="bounce ballThree"></div>
         </li>
       </ul>
     </>
