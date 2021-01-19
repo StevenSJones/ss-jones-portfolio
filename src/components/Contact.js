@@ -1,4 +1,7 @@
 import React from "react";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 export default function Contact(props) {
   return (
@@ -35,22 +38,25 @@ export default function Contact(props) {
                 <ul>
                   <li>
                     <a href="https://github.com/StevenSJones">
-                      <i className="fa fa-github fa-4x"></i>
+                      <FaGithub size="4em" className="faSocial" />
                     </a>
                   </li>
                   <li>
                     <a href="https://www.linkedin.com/in/steven-j-285a33115/">
-                      <i className="fa fa-linkedin fa-4x"></i>
+                      <FaLinkedinIn size="4em" className="faSocial" />
                     </a>
                   </li>
                   <li>
                     <a href="https://twitter.com/ss_jones">
-                      <i className="fa fa-twitter fa-4x"></i>
+                      <FaTwitter size="4em" className="faSocial" />
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
+          </div>
+          <div className="row contactFooter">
+            <div className="col-12">&copy; Steven Jones 2020</div>
           </div>
         </div>
       </div>
