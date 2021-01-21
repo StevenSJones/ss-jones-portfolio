@@ -33,7 +33,7 @@ export default function Contact(props) {
             </div>
           </div>
 
-          <div className="row text-center">
+          <div className="row text-center ">
             <div className="col-12">
               <div className="social">
                 <ul>
