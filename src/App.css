@@ -310,16 +310,14 @@ a.active {
 .contact-img {
   border-radius: 50%;
   display: inline-block;
-  height: 400px;
-  width: 400px;
+  height: 250px;
+  width: 250px;
 }
 
 .img-wrapper {
   margin-top: 6rem;
   height: 50%;
   width: 50% !important;
-  display: grid;
-  grid-template-rows: auto 1fr;
   place-items: center;
 }
 

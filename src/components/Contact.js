@@ -17,7 +17,7 @@ export default function Contact(props) {
             <div className="col-12 img-wrapper">
               <img
                 src="img/contact/contact.jpg"
-                className="contact-img"
+                className="contact-img img-responsive"
                 alt="Steven Jones in a houndstooth jacket and black shirt."
               />
               <p className="emailContact">
