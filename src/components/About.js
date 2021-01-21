@@ -23,7 +23,7 @@ export default function About(props) {
               <div className="col"></div>
 
               <div className="row">
-                <div className="Col md={{ span: 6, offset: 3 }}">
+                <div className="mainParagraphPadding Col md={{ span: 6, offset: 3 }}">
                   <div className="about-text">
                     <p>
                       Recent University of Arizona Full-stack web development
