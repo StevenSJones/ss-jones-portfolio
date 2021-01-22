@@ -87,6 +87,8 @@ a:focus {
 	-ms-transform: scale(1.1);
 	-o-transform: scale(1.1);
   transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 1s;
 }
 
 /*==============*/
@@ -114,6 +116,8 @@ li:hover,
 li:focus {
   color: #777;
   text-decoration: none;
+  transition-property: all;
+  transition-duration: 1s;
 }
 
 li a {
@@ -122,6 +126,8 @@ li a {
 
 li a:hover {
   color: black;
+  transition-property: all;
+  transition-duration: 1s;
 }
 
 
@@ -190,7 +196,9 @@ a:focus {
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	-o-transform: scale(1.1);
-	transform: scale(1.1);
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 1s;
 }
 
 /*===================================================*/
@@ -217,7 +225,9 @@ a:focus {
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	-o-transform: scale(1.1);
-	transform: scale(1.1);
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 1s;
 }
 
 .categories {
@@ -234,6 +244,8 @@ a:focus {
   text-transform: uppercase;
   color: rgb(197, 164, 102);
   cursor: pointer;
+  transition-property: all;
+  transition-duration: 2s;
 }
 
 #portfolio p {
@@ -242,6 +254,8 @@ a:focus {
 
 #portfolio p:hover {
   color: rgb(197, 164, 102);
+  transition-property: all;
+  transition-duration: 1s;
 }
 
 #portfolio img {
@@ -272,6 +286,8 @@ ol.type li a.hover,
 a.active {
   border: 1px solid #222;
   color: rgb(197, 164, 102);
+  transition-property: all;
+  transition-duration: 1s;
 }
 
 .portfolio-item {
@@ -297,7 +313,9 @@ a.active {
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	-o-transform: scale(1.1);
-	transform: scale(1.1);
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 1s;
 }
 
 /*===================================================*/
@@ -339,7 +357,10 @@ a.active {
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	-o-transform: scale(1.1);
-	transform: scale(1.1);
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 1s;
+
 }
 
 #contact .social {
@@ -362,7 +383,10 @@ a.active {
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	-o-transform: scale(1.1);
-	transform: scale(1.1);}
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 1s;
+}
 
   .contactFooter {
     color:rgb(197, 164, 102);
