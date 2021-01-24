@@ -267,7 +267,6 @@ export default class Portfolio extends Component {
                   </ol>
                 </li>
               </ul>
-              <div className="clearfix"></div>
             </div>
             <div className="portfolio-items">
               {/* app number 1 */}

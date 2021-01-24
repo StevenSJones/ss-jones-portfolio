@@ -100,6 +100,9 @@ a:focus {
   text-align: center;
   margin: 0;
   padding: 0;
+  /* position: fixed;
+  top: 0;
+  width: 100% */
 }
 
 ul.nav li {
@@ -233,7 +236,8 @@ a:focus {
 
 .categories {
   margin-bottom: 2rem;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 #portfolio a {
