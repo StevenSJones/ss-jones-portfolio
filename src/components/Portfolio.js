@@ -37,7 +37,7 @@ export default class Portfolio extends Component {
           category: "javascript",
         },
         {
-          name: "Weather Dashboard",
+          name: "The Weather Dashboard",
           appURL:
             "https://stevensjones.github.io/weatherDashboardSixthEdition/",
           description:
@@ -106,7 +106,7 @@ export default class Portfolio extends Component {
           category: "mongo",
         },
         {
-          name: "My React Portfolio",
+          name: "React Portfolio",
           appURL:
             "https://5f88c380e358651e96f02101--competent-stonebraker-251e1d.netlify.app/gallery",
           description:
