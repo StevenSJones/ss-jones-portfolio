@@ -204,27 +204,32 @@ export default class Portfolio extends Component {
                 <li>
                   <ol className="type">
                     <li>
+                    <div className="category">
                     {/* eslint-disable-next-line */}
                       <a
                         data-category="all"
-                        className="active"
+                        className="active "
                         // when clicked, this from the projects is bound to the this in filteredProject so filteredProjects knows what this we are referring to above in the function definition of filteredProject(){}. 
                         onClick={this.filterProject.bind(this)}
                       >
                         All
                       </a>
+                      </div>
                     </li>
                     <li>
+                      <div className="category">
                       {/* eslint-disable-next-line */}
-                      <a
+                        <a
                         data-category="javascript"
                         className="active"
                         onClick={this.filterProject.bind(this)}
                       >
                         Javascript
                       </a>
+                      </div>
                     </li>
                     <li>
+                      <div className="category">
                       {/* eslint-disable-next-line */}
                       <a
                         data-category="nodejs"
@@ -233,8 +238,10 @@ export default class Portfolio extends Component {
                       >
                         Node.js
                       </a>
+                      </div>
                     </li>
                     <li>
+                      <div className="category">
                       {/* eslint-disable-next-line */}
                       <a
                         data-category="mongo"
@@ -243,8 +250,10 @@ export default class Portfolio extends Component {
                       >
                         Mongo
                       </a>
+                      </div>
                     </li>
                     <li>
+                      <div className="category">
                       {/* eslint-disable-next-line */}
                       <a
                         data-category="react"
@@ -253,8 +262,10 @@ export default class Portfolio extends Component {
                       >
                         React
                       </a>
+                      </div>
                     </li>
                     <li>
+                      <div className="category">
                       {/* eslint-disable-next-line */}
                       <a
                         data-category="mern"
@@ -263,6 +274,7 @@ export default class Portfolio extends Component {
                       >
                         MERN
                       </a>
+                      </div>
                     </li>
                   </ol>
                 </li>
