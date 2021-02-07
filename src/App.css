@@ -18,8 +18,6 @@ html {
   height: 50rem;
   padding: 0;
   background-image: url(/src/img/introGold/introGold.jpg);
-  /* background: url(https://images.pexels.com/photos/220071/pexels-photo-220071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350)
-    no-repeat center top; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
