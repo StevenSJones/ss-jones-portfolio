@@ -301,9 +301,9 @@ ol.type li a.hover {
 
 .portfolio-item {
   margin: 1rem 0;
-  border: 0.75rem;
+  border: 0.75rem ridge;
   border-color: white;
-  border-style: ridge;
+  /* border-style: ridge; */
   min-height: 556px;
   display: flex;
   flex-direction: column;
