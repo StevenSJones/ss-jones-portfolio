@@ -27,7 +27,7 @@ export default function Contact(props) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Send Me An Email
+                  ssjones.code@gmail.com
                 </a>
               </p>
             </div>
@@ -38,17 +38,29 @@ export default function Contact(props) {
               <div className="social">
                 <ul>
                   <li>
-                    <a href="https://github.com/StevenSJones" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://github.com/StevenSJones"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <FaGithub size="4em" className="faSocial" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/in/steven-j-285a33115/" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://www.linkedin.com/in/steven-j-285a33115/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <FaLinkedinIn size="4em" className="faSocial" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/ss_jones" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://twitter.com/ss_jones"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <FaTwitter size="4em" className="faSocial" />
                     </a>
                   </li>
